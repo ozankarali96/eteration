@@ -1,0 +1,124 @@
+{
+  "id": "7ead7351-0f52-4322-8f2a-f2066511bd71",
+  "version": "2.0",
+  "name": "EtarationTestSce",
+  "url": "https://academy.eteration.com",
+  "tests": [{
+    "id": "cb9135aa-dfe0-4406-be52-986528581c67",
+    "name": "etarationTest",
+    "commands": [{
+      "id": "e69ff3c9-8d98-4277-83f2-94e76e8cd031",
+      "comment": "",
+      "command": "open",
+      "target": "/tr",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6c1260e4-ba90-46a7-ac4c-4949294cfc3e",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1056",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6fd03e4b-584b-4beb-8a3a-216c5c69d328",
+      "comment": "",
+      "command": "click",
+      "target": "css=.covid19-close > span",
+      "targets": [
+        ["css=.covid19-close > span", "css:finder"],
+        ["xpath=//div[@id='app']/div/div/div/div/span", "xpath:idRelative"],
+        ["xpath=//div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'x')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f10890b2-01a1-48dc-9999-dbf8e6e4aaf9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.hero-btn",
+      "targets": [
+        ["css=.hero-btn", "css:finder"],
+        ["xpath=//div[@id='app']/div/div/div/div/div[3]", "xpath:idRelative"],
+        ["xpath=//div[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "23c92300-7ea4-4e02-9515-7498c9f23f75",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=0",
+      "targets": [
+        ["index=0"]
+      ],
+      "value": ""
+    }, {
+      "id": "7b8e44a9-5f54-485c-8b6e-773661b79eb1",
+      "comment": "",
+      "command": "click",
+      "target": "name=w-field-field-69106-390257-584036-email",
+      "targets": [
+        ["name=w-field-field-69106-390257-584036-email", "name"],
+        ["css=.w-preview-fields-content-cell-field-email", "css:finder"],
+        ["xpath=//input[@name='w-field-field-69106-390257-584036-email']", "xpath:attributes"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "61095b70-0ed2-47e1-90fb-7e119541d724",
+      "comment": "",
+      "command": "type",
+      "target": "name=w-field-field-69106-390257-584036-email",
+      "targets": [
+        ["name=w-field-field-69106-390257-584036-email", "name"],
+        ["css=.w-preview-fields-content-cell-field-email", "css:finder"],
+        ["xpath=//input[@name='w-field-field-69106-390257-584036-email']", "xpath:attributes"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "deneme@gmail.com"
+    }, {
+      "id": "8ddfefa6-6486-4515-ae14-290fa53fa59e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mj-subscribe-button-content",
+      "targets": [
+        ["css=.mj-subscribe-button-content", "css:finder"],
+        ["xpath=//div[2]/div/div[2]/div/div[2]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "623a6dc8-27fd-4e58-b763-3ef8fb855712",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "relative=parent",
+      "targets": [
+        ["relative=parent"]
+      ],
+      "value": ""
+    }, {
+      "id": "a91e045e-7e61-47cd-861a-234a273b6300",
+      "comment": "",
+      "command": "click",
+      "target": "id=mj-w-close-img",
+      "targets": [
+        ["id=mj-w-close-img", "id"],
+        ["css=#mj-w-close-img", "css:finder"],
+        ["xpath=//img[@alt='Close']", "xpath:img"],
+        ["xpath=//img[@id='mj-w-close-img']", "xpath:attributes"],
+        ["xpath=//div[@id='mj-w-popin-block']/img", "xpath:idRelative"],
+        ["xpath=//data/div/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "7d242c29-c8e2-48ea-be37-d7a04dd328b7",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["cb9135aa-dfe0-4406-be52-986528581c67"]
+  }],
+  "urls": ["https://academy.eteration.com/"],
+  "plugins": []
+}
